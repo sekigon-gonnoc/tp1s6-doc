@@ -56,7 +56,7 @@
 - キースイッチにキーキャップをつけてゴム足を貼り付けたら完成です
 
 ### プログラムを書き込む
-- [https://github.com/sekigon-gonnoc/qmk_firmware/tree/dev/sekigon/keyboards/keyboards/sekigon/tp1s6](https://github.com/sekigon-gonnoc/qmk_firmware/tree/dev/sekigon/keyboards/keyboards/sekigon/tp1s6)
+- [https://github.com/sekigon-gonnoc/qmk_firmware/tree/dev/sekigon/keyboards/sekigon/tp1s6](https://github.com/sekigon-gonnoc/qmk_firmware/tree/dev/sekigon/keyboards/sekigon/tp1s6)
 
   ```bash
     make sekigon/tp1s6:default:flash
