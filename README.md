@@ -6,6 +6,9 @@
 - [Toybox Keyboard](https://nogikes.booth.pm/items/2091598)の右上に搭載しているトラックパッドを搭載したマクロパッドです  
 - トラックパッド付き自作キーボードの実験ができます
 
+## 販売リンク
+- [BOOTH](https://nogikes.booth.pm/items/2712507)
+
 ## トラックパッドの仕様
 ### MTCH6102
 - 検出
