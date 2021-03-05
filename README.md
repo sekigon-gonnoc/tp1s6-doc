@@ -1,6 +1,6 @@
 # トラックパッドIC(MTCH6102)評価用基板
 
-|![tp1s6](img/tp1s6.JPG)|![iqs572_t](img/iqs572_t.jpg)
+|![tp1s6](img/tp1s6.JPG)|![iqs572_t](img/iqs572_t.JPG)
 |-|-|
 |メイン基板+シングルタッチ基板|マルチタッチ基板|
 - [Toybox Keyboard](https://nogikes.booth.pm/items/2091598)の右上に搭載しているトラックパッドを搭載したマクロパッドです  
@@ -93,9 +93,10 @@
 - キースイッチにキーキャップをつけてゴム足を貼り付けたら完成です
 
 ### Pro Microプログラムを書き込む
-- リポジトリとフォルダは下記のとおりです。
+- QMK Toolboxや[ProMicro Web Updater](https://sekigon-gonnoc.github.io/promicro-web-updater/)を使って書き込む場合は[Relaseページ](https://github.com/sekigon-gonnoc/tp1s6-doc/releases/tag/0.2)にあるビルド済みのHEXファイルを使用してください
+- QMKのリポジトリとフォルダは下記のとおりです
   - [https://github.com/sekigon-gonnoc/qmk_firmware/tree/dev/sekigon/keyboards/sekigon/tp1s6](https://github.com/sekigon-gonnoc/qmk_firmware/tree/dev/sekigon/keyboards/sekigon/tp1s6)
-- マルチタッチ版の組立の場合、まずはトラックパッドICのファームウェアを書き換えるためにPro Microにはbootloadrキーマップを書き込んでください
+- マルチタッチ版の組立の場合、まずはトラックパッドICのファームウェアを書き換えるためにPro Microにはbootloaderキーマップを書き込んでください
   ```bash
     # シングルタッチ版の場合
     make sekigon/tp1s6:default:flash
