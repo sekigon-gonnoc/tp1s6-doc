@@ -81,7 +81,7 @@
     - 図のようにQFNの側面パッドとランドがハンダでついていることを確認してください 
     ![iqs572](img/iqs572.jpg)
     ![iqs572b](img/iqs572_b.jpg)
-- 4隅のジャンパは初期状態で導通しているのでブリッジさせる必要はありませｎ
+- 4隅のジャンパは初期状態で導通しているのでブリッジさせる必要はありませn
 - スマホの液晶シートなどを表面に貼り付けてください
   - シングルタッチ版と違い何かしらのシートがないと正しく読み取れません
 
@@ -119,7 +119,7 @@
 - メイン基板がbeta版以降の場合は初回からPro Microを取り付けた状態で書き込めます
 
 #### ファームの書き込み
-- Google Chromeから[CH559 Web Updater](https://sekigon-gonnoc.github.io/ch559-web-updater/)にアクセスしてください
+- Google Chromeから[IQS5xx Web Updater](https://sekigon-gonnoc.github.io/iqs5xx-web-updater/)にアクセスしてください
 - Bootloaderキーマップが書き込まれたPro MicroをPCに接続し、flashボタンをクリックしてPro Microのポートを選択して書き込みを開始します
   - **書き込み中はPro Microを抜いたりブラウザを閉じたりしないでください** 
 - 書き込みが完了したらdefaultキーマップに書き換えて動作確認してください
